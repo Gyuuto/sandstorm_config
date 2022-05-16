@@ -8,6 +8,7 @@ Scenario_PowerPlant_Survival
 Scenario_Tell_Survival
 Scenario_Citadel_Survival
 Scenario_Gap_Survival
+Scenario_Prison_Survival
 
 Scenario_TORO_Survival
 Scenario_Assault_Survival
@@ -28,6 +29,7 @@ Scenario_Citadel_Checkpoint_Insurgents
 Scenario_Tell_Checkpoint_Insurgents
 Scenario_Outskirts_Checkpoint_Insurgents
 Scenario_Gap_Checkpoint_Insurgents
+Scenario_Prison_Checkpoint_Insurgents
 
 Scenario_Crossing_Checkpoint_Security
 Scenario_Farmhouse_Checkpoint_Security
@@ -44,6 +46,7 @@ Scenario_Citadel_Checkpoint_Security
 Scenario_Tell_Checkpoint_Security
 Scenario_Outskirts_Checkpoint_Security
 Scenario_Gap_Checkpoint_Security
+Scenario_Prison_Checkpoint_Security
 
 Scenario_Drycanal_Checkpoint_Security
 Scenario_Embassy_Checkpoint_Security
