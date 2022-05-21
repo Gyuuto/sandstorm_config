@@ -45,7 +45,7 @@ mutator=$(echo ${cycle_list[$selectIdx]} | sed "s/.*Mutators=\([^)\"]\+\).*/\1/"
 
 map=${map_dict[$firstScenario]}
 initial_map=${map}?Scenario=${scenario}?Lighting=day?Mutators=${mutator}
-mutators_all=ImprovedAI,NoRestrictedAreas,JoinLeaveMessage
+mutators_all=NoRestrictedAreas,JoinLeaveMessage,ImprovedAI,Medic
 num_players=8
 
 echo $firstScenario
