@@ -2,18 +2,18 @@
 1516914; ISMC Resources (ISMCr)
 1517578; ISMC Delta (ISMCu)
 ; 747539; ISMC Project Arbusto: Technical Preview 2
-851078; Insurgency 2014 Map Pack
+; 851078; Insurgency 2014 Map Pack
 ; 651825; Tarkov - Factory
 ; 487148; West
 ; 436873; SaltMine
 93636; Improved AI
-175082; Temple
+; 175082; Temple
 ; 813738; Hotel Cleaning
 ; 580499; Oasis
 ; 148518; der_Riese
 ; 1017176; DOIDogRed
 134838; No Restricted Areas
-882589; BadLands
+; 882589; BadLands
 101966; Join Leave Message
 ;1169460; Bridges
 ;1120893; Meddle
@@ -23,19 +23,19 @@
 ; 983281; Dome
 ; 760053; The Green Zone
 ; 752895; Polar
-566171; Coastline
+; 566171; Coastline
 ; 176670; MallConflict
 ; 140914; Glassdome
-147615; Sheds
+; 147615; Sheds
 ; 895547; Grindelwald
-115420; Operation Metro
-98204; Noshahr Canals
-109375; Mountain Pass
-134579; Macedonia
-94277; TORO
-607225; Assault
-522691; Factory
+; 115420; Operation Metro
+; 98204; Noshahr Canals
+; 109375; Mountain Pass
+; 134579; Macedonia
+; 94277; TORO
+; 607225; Assault
+; 522691; Factory
 ; 117116; Cheyenne
-1231139; Sumari Bala
+; 1231139; Sumari Bala
 ; 159559; der_Bunker
 1465487; medic
