@@ -4,6 +4,7 @@
         ai_mutators="ImprovedAI";
         # ismc_mutator="ISMCarmory_Legacy"; # ISMC
         ismc_mutator="ISMCGunfighter_Tac_Legacy,AdvancedObjectives"; # ISMC Arbusto
+
         if ( match($1, "DOI") ) {
             mutators="BoltActionsOnly" "," common_mutators "," ai_mutators;
             printf("(Scenario=\"%s\",Lighting=\"%s\",Options=\"Mutators=%s\")\n", $1, lighting, mutators);
