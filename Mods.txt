@@ -1,7 +1,6 @@
-150867; ISMCmod
-1516914; ISMC Resources (ISMCr)
-1517578; ISMC Delta (ISMCu)
-; 747539; ISMC Project Arbusto: Technical Preview 2
+;150867; ISMCmod
+; 1516914; ISMC Resources (ISMCr)
+747539; ISMC Project Arbusto: Technical Preview 2
 ; 851078; Insurgency 2014 Map Pack
 ; 651825; Tarkov - Factory
 ; 487148; West
