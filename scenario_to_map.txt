@@ -59,3 +59,13 @@ Factory,Factory
 der_Bunker,der_Bunker
 Cheyenne,Cheyenne
 Bala,Sumari
+Strike_at_Karkand,Strike_at_Karkand
+Highlands,Highlands
+DryCanalNF,DryCanalNF
+PowerPlant_CS,PowerPlant_CS
+Tideway_CS,Buhriz_CS
+Farmhouse_CS,Farmhouse_CS
+Hideout_CS,Town_CS
+Tell_CS,Tell_CS
+Summit_CS,Mountain_CS
+Refinery_CS,Oilfield_CS
