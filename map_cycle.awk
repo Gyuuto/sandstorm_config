@@ -1,6 +1,6 @@
 {
     if ( NF != 0 ) {
-        common_mutators="NoRestrictedAreas,JoinLeaveMessage,Medic_3";
+        common_mutators="NoRestrictedAreas,JoinLeaveMessage,FPLegsPlus,Medic_3";
         ai_mutators="ImprovedAI";
         # ismc_mutator="ISMCarmory_Legacy"; # ISMC
         ismc_mutator="ISMCGunfighter_Tac_Legacy,AdvancedObjectives"; # ISMC Arbusto
