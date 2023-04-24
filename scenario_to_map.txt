@@ -13,6 +13,8 @@ Bab,Bab
 Citadel,Citadel
 Tell,Tell
 Gap,Gap
+Prison,Prison
+LastLight,LastLight
 
 Factory,Factory
 Drycanal,Drycanal
