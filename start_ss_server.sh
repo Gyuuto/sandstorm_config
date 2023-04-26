@@ -5,11 +5,11 @@ query_port=
 stats_token=
 GSLT_token=
 
-host_name=
+host_name=""
 passwd=""
 
 ./create_map_cycle.sh
-./create_map_cand.sh 
+./create_map_cand.sh
 
 declare -A map_dict
 for v in $(grep "," ./scenario_to_map.txt); do
@@ -52,8 +52,9 @@ echo $firstScenario
 echo $initial_map
 echo $mutator
 
-if [ -z ${passwd} ]; then 
-    /d/steam/steamapps/common/sandstorm_server/InsurgencyServer.exe \
+sandstom_server=
+if [ -z ${passwd} ]; then
+    ${sandstorm_server} \
         Canyon?Scenario=Scenario_Crossing_Checkpoint_Security?MaxPlayers=${num_players} \
         -log \
         -hostname=\"${host_name}\" \
@@ -61,13 +62,14 @@ if [ -z ${passwd} ]; then
         -QueryPort=${query_port} \
         -Mods \
         -Motd \
+        -ModList=Mods.txt \
         -mutators=${mutators_all} \
         -ModDownloadTravelTo=${initial_map} \
         -GameStatsToken=${stats_token} \
         -GSLTToken=${GSLT_token} \
         -GameStats
 else
-    /d/steam/steamapps/common/sandstorm_server/InsurgencyServer.exe \
+    ${sandstrom_server} \
         Canyon?Scenario=Scenario_Crossing_Checkpoint_Security?password=${passwd}?MaxPlayers=${num_players} \
         -log \
         -hostname=\"${host_name}\" \
@@ -75,6 +77,7 @@ else
         -QueryPort=${query_port} \
         -Mods \
         -Motd \
+        -ModList=Mods.txt \
         -mutators=${mutators_all} \
         -ModDownloadTravelTo=${initial_map} \
         -GameStatsToken=${stats_token} \
