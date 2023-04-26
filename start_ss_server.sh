@@ -52,7 +52,7 @@ echo $firstScenario
 echo $initial_map
 echo $mutator
 
-sandstom_server=
+sandstorm_server=
 if [ -z ${passwd} ]; then
     ${sandstorm_server} \
         Canyon?Scenario=Scenario_Crossing_Checkpoint_Security?MaxPlayers=${num_players} \
